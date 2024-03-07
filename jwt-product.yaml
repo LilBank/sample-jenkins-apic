@@ -1,6 +1,6 @@
 info:
-  title: bank-jwt
-  name: bank-jwt
+  title: sbz-jwt
+  name: sbz-jwt
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,8 +9,8 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: Master Plan
-    description: There's always a mastermind
+    title: sbz Plan
+    description: There's always a sbz
     approval: false
     rate-limits:
       default:
