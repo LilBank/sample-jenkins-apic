@@ -1,6 +1,6 @@
 info:
-  title: sbz-jwt
-  name: sbz-jwt
+  title: ocb-api-from-jenkins
+  name: ocb-api-from-jenkins
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,8 +9,8 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: sbz Plan
-    description: There's always a sbz
+    title: Jenkins pipeline plan
+    description: If you see this product published, then it works
     approval: false
     rate-limits:
       default:
