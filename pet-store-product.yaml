@@ -1,13 +1,13 @@
 info:
   version: 1.0.0
-  title: pet-store-product
-  name: pet-store-product
+  title: ocb-automation-api
+  name: ocb-automation-api
 gateways:
   - datapower-api-gateway
 plans:
   the-plan:
-    title: The plan
-    description: Tenet, song.
+    title: OCB Free plan
+    description: Free plan for the people
     rate-limits:
       default:
         value: 100/1hour
@@ -15,7 +15,7 @@ plans:
       swagger-petstore88: {}
 apis:
   swagger-petstore88:
-    $ref: swagger-petstore_88.yaml
+    $ref: ocb-api.yaml
 visibility:
   view:
     type: public
