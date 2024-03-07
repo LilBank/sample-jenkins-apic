@@ -1,6 +1,6 @@
 info:
-  title: ocb-api-from-jenkins-v1
-  name: ocb-api-from-jenkins-v1
+  title: jwt-api-from-jenkins-latest
+  name: jwt-api-from-jenkins-latest
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,7 +9,7 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: Jenkins Plan v1
+    title: Premium Plan
     description: If you see this product published, then it works
     approval: false
     rate-limits:
