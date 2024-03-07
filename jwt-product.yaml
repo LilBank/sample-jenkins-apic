@@ -1,6 +1,6 @@
 info:
-  title: ocb-api-from-jenkins
-  name: ocb-api-from-jenkins
+  title: ocb-api-from-jenkins-v1
+  name: ocb-api-from-jenkins-v1
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,7 +9,7 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: Jenkins pipeline plan
+    title: Jenkins Plan v1
     description: If you see this product published, then it works
     approval: false
     rate-limits:
