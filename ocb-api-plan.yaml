@@ -15,7 +15,7 @@ plans:
       swagger-petstore88: {}
 apis:
   swagger-petstore88:
-    $ref: ocb-api.yaml
+    $ref: sample-jenkins-apic/ocb-api.yaml
 visibility:
   view:
     type: public
