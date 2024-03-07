@@ -1,6 +1,6 @@
 info:
-  title: jwt-api-from-jenkins-latest
-  name: jwt-api-from-jenkins-latest
+  title: ocb-api-test-1
+  name: ocb-api-test-1
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,7 +9,7 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: Premium Plan
+    title: Test plan
     description: If you see this product published, then it works
     approval: false
     rate-limits:
