@@ -1,13 +1,13 @@
 info:
   version: 1.0.0
-  title: ocb-automation-api
-  name: ocb-automation-api
+  title: bank-test-1
+  name: bank-test-1
 gateways:
   - datapower-api-gateway
 plans:
   the-plan:
-    title: OCB Free plan
-    description: Free plan for the people
+    title: Freemium
+    description: The not so free plan
     rate-limits:
       default:
         value: 100/1hour
