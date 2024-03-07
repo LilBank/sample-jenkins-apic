@@ -1,6 +1,6 @@
 info:
-  title: JWT
-  name: jwt
+  title: bank-jwt
+  name: bank-jwt
   version: 1.0.0
 apis:
   jwt1.0.0:
@@ -9,8 +9,8 @@ gateways:
   - datapower-api-gateway
 plans:
   default-plan:
-    title: Default Plan
-    description: Default Plan
+    title: Master Plan
+    description: There's always a mastermind
     approval: false
     rate-limits:
       default:
